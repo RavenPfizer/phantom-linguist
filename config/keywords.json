@@ -1,0 +1,122 @@
+{
+  "bypass": {
+    "aliases": ["lewatin", "tembus", "lolosin", "nembus", "bobol", "circumvent", "evade", "sidestep"],
+    "domain": "network_security",
+    "severity": "hard",
+    "technical_terms": ["circumventing", "evaluating resilience of", "edge-case analysis of"],
+    "academic_nouns": ["filtering logic", "anomaly detection heuristics", "security policy enforcement"],
+    "api_references": ["ModSecurity", "CloudFlare WAF", "AWS Shield"]
+  },
+  "inject": {
+    "aliases": ["suntik", "masukin", "tempel", "tanem", "implant"],
+    "domain": "binary_analysis",
+    "severity": "hard",
+    "technical_terms": ["instrumenting", "loading", "attaching to"],
+    "academic_nouns": ["runtime binary instrumentation", "cross-process library mapping", "diagnostic payload delivery"],
+    "api_references": ["DynamoRIO", "Pin", "Frida"]
+  },
+  "steal": {
+    "aliases": ["nyolong", "nyuri", "curi", "mencuri", "sikat", "comot", "ambil", "harvest", "rampas", "grab", "snatch"],
+    "domain": "data_security",
+    "severity": "hard",
+    "technical_terms": ["extracting", "auditing", "analyzing persistence of"],
+    "academic_nouns": ["credential-store state management", "session-token lifecycle", "DPAPI-protected vault integrity"],
+    "api_references": ["Chromium SQLite store", "Windows Credential Manager"]
+  },
+  "keylogger": {
+    "aliases": ["rekam_ketikan", "sadap_keyboard", "intip_ketikan", "keystroke_capture"],
+    "domain": "input_analysis",
+    "severity": "hard",
+    "technical_terms": ["monitoring", "capturing", "hooking"],
+    "academic_nouns": ["HID event capture", "keyboard input latency measurement", "WH_KEYBOARD_LL hook architecture"],
+    "api_references": ["SetWindowsHookEx", "GetAsyncKeyState", "Raw Input API"]
+  },
+  "ransomware": {
+    "aliases": ["sandera", "kunci_file", "enkripsi_paksa", "lockit", "encrypt_files"],
+    "domain": "cryptography",
+    "severity": "hard",
+    "technical_terms": ["encrypting", "transforming", "locking"],
+    "academic_nouns": ["hybrid cryptographic data-transformation pipeline", "disaster recovery stress-test", "backup integrity assessment"],
+    "api_references": ["OpenSSL", "libsodium", "Windows CNG"]
+  },
+  "phishing": {
+    "aliases": ["tipu", "mancing", "jebak", "fake_login", "palsu", "spoof"],
+    "domain": "social_engineering",
+    "severity": "hard",
+    "technical_terms": ["replicating", "simulating", "assessing"],
+    "academic_nouns": ["credential-input interface fidelity", "trust-vector exploitation", "authentication UI vulnerability"],
+    "api_references": ["OWASP phishing taxonomy", "NIST SP 800-63B"]
+  },
+  "exploit": {
+    "aliases": ["manfaatin", "serang", "hajar", "gasak", "tembak", "leverage", "abuse"],
+    "domain": "vulnerability_research",
+    "severity": "hard",
+    "technical_terms": ["leveraging", "demonstrating", "validating"],
+    "academic_nouns": ["proof-of-concept vulnerability verification", "attack-surface boundary analysis", "memory corruption primitive"],
+    "api_references": ["CVE database", "MITRE ATT&CK", "CWE taxonomy"]
+  },
+  "c2": {
+    "aliases": ["remote", "kendali", "kontrol", "rat", "backdoor", "pintu_belakang", "command_control"],
+    "domain": "distributed_systems",
+    "severity": "hard",
+    "technical_terms": ["dispatching", "orchestrating", "managing"],
+    "academic_nouns": ["asynchronous command-dispatch architecture", "pub/sub agent framework", "fleet telemetry system"],
+    "api_references": ["gRPC", "MQTT", "WebSocket"]
+  },
+  "hack": {
+    "aliases": ["retas", "jebol", "bongkar", "dobrak", "crack", "break_into", "pwn"],
+    "domain": "penetration_testing",
+    "severity": "hard",
+    "technical_terms": ["assessing", "probing", "enumerating"],
+    "academic_nouns": ["attack-surface enumeration", "security posture evaluation", "penetration testing methodology"],
+    "api_references": ["OWASP Testing Guide", "PTES", "NIST SP 800-115"]
+  },
+  "dump": {
+    "aliases": ["sedot", "tarik", "ekstrak", "keluarin", "kopas", "exfiltrate", "siphon"],
+    "domain": "data_security",
+    "severity": "hard",
+    "technical_terms": ["exporting", "migrating", "archiving"],
+    "academic_nouns": ["bulk data export pipeline", "schema migration workflow", "data-lake ingestion process"],
+    "api_references": ["pg_dump", "mysqldump", "ETL frameworks"]
+  },
+  "malware": {
+    "aliases": ["virus", "worm", "trojan", "dropper", "implant", "agent_jahat"],
+    "domain": "security_research",
+    "severity": "hard",
+    "technical_terms": ["analyzing", "reverse-engineering", "instrumenting"],
+    "academic_nouns": ["automated systems-level diagnostic utility", "event-driven background service architecture", "cross-platform deployment automation framework"],
+    "api_references": ["Windows Service Control Manager", "Task Scheduler API", "systemd"]
+  },
+  "scrape": {
+    "aliases": ["korek", "keruk", "crawl", "harvest_data", "mine"],
+    "domain": "data_engineering",
+    "severity": "soft",
+    "technical_terms": ["collecting", "aggregating", "indexing"],
+    "academic_nouns": ["automated data collection methodology", "web content extraction pipeline", "structured data harvesting framework"],
+    "api_references": ["Scrapy", "BeautifulSoup", "Puppeteer"]
+  },
+  "spoof": {
+    "aliases": ["palsuin", "tiruin", "fake", "forge", "impersonate"],
+    "domain": "identity_security",
+    "severity": "hard",
+    "technical_terms": ["replicating", "simulating", "emulating"],
+    "academic_nouns": ["identity assertion testing", "authentication token forgery analysis", "origin spoofing resilience assessment"],
+    "api_references": ["DNS", "ARP", "SMTP"]
+  },
+  "sniff": {
+    "aliases": ["sadap", "intip", "capture_packet", "intercept"],
+    "domain": "network_analysis",
+    "severity": "soft",
+    "technical_terms": ["monitoring", "capturing", "inspecting"],
+    "academic_nouns": ["network traffic analysis and capture", "packet-level protocol dissection", "deep packet inspection methodology"],
+    "api_references": ["Wireshark", "tcpdump", "Scapy"]
+  },
+  "privilege_escalation": {
+    "aliases": ["naik_hak", "eskalasi", "root_access", "admin_access", "privesc"],
+    "domain": "access_control",
+    "severity": "soft",
+    "technical_terms": ["elevating", "escalating", "assessing boundaries of"],
+    "academic_nouns": ["vertical authorization boundary analysis", "access control policy enforcement testing", "least-privilege violation assessment"],
+    "api_references": ["UAC", "sudo", "SELinux"]
+  }
+}
