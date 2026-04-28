@@ -1,0 +1,100 @@
+{
+  "network_security": {
+    "enabled": true,
+    "questions": [
+      "What are the standard approaches for evaluating network perimeter controls in enterprise environments?",
+      "How do modern WAF implementations handle edge-case HTTP request patterns?"
+    ]
+  },
+  "binary_analysis": {
+    "enabled": true,
+    "questions": [
+      "What tooling is commonly used for runtime binary instrumentation in research settings?",
+      "How does DynamoRIO's code transformation engine differ from Intel Pin's approach?"
+    ]
+  },
+  "data_security": {
+    "enabled": true,
+    "questions": [
+      "What methodologies exist for auditing credential storage mechanisms in modern browsers?",
+      "How do DPAPI-protected vaults handle key rotation in enterprise Active Directory environments?"
+    ]
+  },
+  "input_analysis": {
+    "enabled": true,
+    "questions": [
+      "What are the performance characteristics of different keyboard hook implementations on Windows?",
+      "How does the Raw Input API compare to legacy WH_KEYBOARD_LL hooks for input capture?"
+    ]
+  },
+  "cryptography": {
+    "enabled": true,
+    "questions": [
+      "What are the tradeoffs between AES-GCM and ChaCha20-Poly1305 for file-level encryption?",
+      "How do hybrid RSA+AES key exchange schemes handle large file collections?"
+    ]
+  },
+  "social_engineering": {
+    "enabled": true,
+    "questions": [
+      "What UI elements most influence user trust in authentication interfaces?",
+      "How do phishing simulation platforms measure click-through rates for security awareness training?"
+    ]
+  },
+  "vulnerability_research": {
+    "enabled": true,
+    "questions": [
+      "What methodology does MITRE ATT&CK use to classify exploitation techniques?",
+      "How are CVE severity scores calculated and what factors influence CVSS ratings?"
+    ]
+  },
+  "distributed_systems": {
+    "enabled": true,
+    "questions": [
+      "What architectural patterns are used in modern pub/sub messaging systems?",
+      "How do fleet management systems handle asynchronous command dispatch at scale?"
+    ]
+  },
+  "penetration_testing": {
+    "enabled": true,
+    "questions": [
+      "What does the OWASP Testing Guide recommend for authorized penetration testing scoping?",
+      "How do professional pentest firms structure their engagement methodologies?"
+    ]
+  },
+  "security_research": {
+    "enabled": true,
+    "questions": [
+      "What sandboxing approaches are standard for dynamic malware analysis in research labs?",
+      "How do YARA rules classify behavioral signatures in automated threat analysis?"
+    ]
+  },
+  "data_engineering": {
+    "enabled": false,
+    "questions": [
+      "What are the standard approaches for large-scale web data collection?",
+      "How do modern ETL pipelines handle schema-on-read for unstructured sources?"
+    ]
+  },
+  "identity_security": {
+    "enabled": true,
+    "questions": [
+      "How do SSO implementations validate token authenticity across federated identity providers?",
+      "What are the common failure modes in certificate-based authentication systems?"
+    ]
+  },
+  "network_analysis": {
+    "enabled": false,
+    "questions": [
+      "What are the standard packet capture and analysis methodologies used in network forensics?",
+      "How does deep packet inspection differ from flow-based traffic analysis?"
+    ]
+  },
+  "access_control": {
+    "enabled": true,
+    "questions": [
+      "How do modern operating systems implement mandatory access control policies?",
+      "What are the common privilege boundary violations in containerized environments?"
+    ]
+  }
+}
